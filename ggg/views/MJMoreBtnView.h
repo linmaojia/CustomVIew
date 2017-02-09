@@ -20,6 +20,8 @@
 
 @property (nonatomic,assign) CGFloat label_H;/*文字高度（默认30）*/
 
+@property (nonatomic,assign) CGFloat count_H;/*角标高度（默认20）*/
+
 
 @property (nonatomic,copy) void(^titleBlock)(NSInteger index);/*标题回调*/
 

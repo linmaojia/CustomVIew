@@ -222,6 +222,8 @@
 		8997C5E81D51E1C40000DB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8997C5E61D51E1C40000DB9A /* LaunchScreen.storyboard */; };
 		8997C5F31D51E1C40000DB9A /* gggTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8997C5F21D51E1C40000DB9A /* gggTests.m */; };
 		8997C5FE1D51E1C50000DB9A /* gggUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8997C5FD1D51E1C50000DB9A /* gggUITests.m */; };
+		89AA15C61E4C07BE008777CE /* MJOtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA15C51E4C07BE008777CE /* MJOtherView.m */; };
+		89AA15C91E4C0BF7008777CE /* SCMJButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA15C81E4C0BF7008777CE /* SCMJButtons.m */; };
 		89EFCD861D9CA21C0099325D /* YZGShoppingCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFCD851D9CA21C0099325D /* YZGShoppingCarView.m */; };
 		89EFCD891D9CA3440099325D /* YZGDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFCD881D9CA3440099325D /* YZGDataManage.m */; };
 		89EFCD8C1D9CA7460099325D /* YZGRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFCD8B1D9CA7460099325D /* YZGRootNavigationController.m */; };
@@ -677,6 +679,10 @@
 		8997C5F91D51E1C50000DB9A /* gggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gggUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8997C5FD1D51E1C50000DB9A /* gggUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gggUITests.m; sourceTree = "<group>"; };
 		8997C5FF1D51E1C50000DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AA15C41E4C07BE008777CE /* MJOtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJOtherView.h; sourceTree = "<group>"; };
+		89AA15C51E4C07BE008777CE /* MJOtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJOtherView.m; sourceTree = "<group>"; };
+		89AA15C71E4C0BF7008777CE /* SCMJButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMJButtons.h; sourceTree = "<group>"; };
+		89AA15C81E4C0BF7008777CE /* SCMJButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMJButtons.m; sourceTree = "<group>"; };
 		89EFCD841D9CA21C0099325D /* YZGShoppingCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShoppingCarView.h; sourceTree = "<group>"; };
 		89EFCD851D9CA21C0099325D /* YZGShoppingCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShoppingCarView.m; sourceTree = "<group>"; };
 		89EFCD871D9CA3440099325D /* YZGDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGDataManage.h; sourceTree = "<group>"; };
@@ -831,6 +837,10 @@
 				8948B6661DEE7D4700C75E10 /* MJMoreBtnView.m */,
 				8948B6681DEE7D9800C75E10 /* MJAlertView.h */,
 				8948B6691DEE7D9800C75E10 /* MJAlertView.m */,
+				89AA15C41E4C07BE008777CE /* MJOtherView.h */,
+				89AA15C51E4C07BE008777CE /* MJOtherView.m */,
+				89AA15C71E4C0BF7008777CE /* SCMJButtons.h */,
+				89AA15C81E4C0BF7008777CE /* SCMJButtons.m */,
 			);
 			name = customViews;
 			path = views;
@@ -2392,6 +2402,8 @@
 				898AB72A1D87E41D001B07A9 /* IQPreviousNextView.m in Sources */,
 				894D8FED1DB9BA1B00AE66ED /* TZVideoPlayerController.m in Sources */,
 				8979A6E61D6D6E5B00A4A4E2 /* UIImageView+WebCache.m in Sources */,
+				89AA15C61E4C07BE008777CE /* MJOtherView.m in Sources */,
+				89AA15C91E4C0BF7008777CE /* SCMJButtons.m in Sources */,
 				8948B8001DFD511100C75E10 /* SVHTTPClient+Login.m in Sources */,
 				8948B6711DEE80C500C75E10 /* MJMenuView.m in Sources */,
 				898AB7221D87E41D001B07A9 /* IQUITextFieldView+Additions.m in Sources */,

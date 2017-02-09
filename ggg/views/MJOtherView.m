@@ -6,16 +6,16 @@
 //  Copyright © 2016年 AVGD. All rights reserved.
 //
 
-#import "MJSegmentedView.h"
-
-@interface MJSegmentedView ()
+#import "MJOtherView.h"
+#import "SCMJButtons.h"
+@interface MJOtherView ()
 
 @property (nonatomic, strong) UIButton *tempBtn;
 @property (nonatomic, strong) UIView *lineView;
 @property (nonatomic, strong) NSArray *titles;
 
 @end
-@implementation MJSegmentedView
+@implementation MJOtherView
 #pragma mark ************** init
 - (id)initWithTitles:(NSArray *)titles
 {
@@ -34,24 +34,39 @@
 #pragma mark ************** 添加子控件
 - (void)addSubviewsForView
 {
+//    for (int i = 0; i < _titles.count; i++)
+//    {
+//        
+//        UIButton *button = [[UIButton alloc]initWithFrame:CGRectZero];
+//        button.titleLabel.font = systemFont(15);
+//        button.backgroundColor = [UIColor clearColor];
+//        [button setTitle:_titles[i] forState:0];
+//        [button setTitleColor:[UIColor blackColor] forState:0];
+//        [button setTitleColor:mainColor forState:UIControlStateSelected];
+//        [button setBackgroundImage:[UIImage imageNamed:@"weixuanzhong"] forState:UIControlStateNormal];
+//        [button setBackgroundImage:[UIImage imageNamed:@"xuanzhongshi"] forState:UIControlStateSelected];
+//        [button setAdjustsImageWhenHighlighted:NO];
+//        [button addTarget:self action:@selector(optionButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+//        button.tag = 100+i;
+//        [self addSubview:button];
+//        
+//    }
+    //直接取消高亮的方法
     for (int i = 0; i < _titles.count; i++)
     {
         
-        UIButton *button = [[UIButton alloc]initWithFrame:CGRectZero];
+        SCMJButtons *button = [[SCMJButtons alloc]initWithFrame:CGRectZero];
         button.titleLabel.font = systemFont(15);
-        button.backgroundColor = [UIColor clearColor];
         [button setTitle:_titles[i] forState:0];
         [button setTitleColor:[UIColor blackColor] forState:0];
         [button setTitleColor:mainColor forState:UIControlStateSelected];
+        [button setBackgroundImage:[UIImage imageNamed:@"weixuanzhong"] forState:UIControlStateNormal];
+        [button setBackgroundImage:[UIImage imageNamed:@"xuanzhongshi"] forState:UIControlStateSelected];
         [button addTarget:self action:@selector(optionButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         button.tag = 100+i;
         [self addSubview:button];
         
     }
-    
-    self.lineView = [[UIView alloc]initWithFrame:CGRectZero];
-    self.lineView.backgroundColor = mainColor;
-    [self addSubview:self.lineView];
 }
 
 
@@ -68,14 +83,6 @@
     sender.selected = YES;
     self.tempBtn = sender;
     
-    [UIView animateWithDuration:0.15 animations:^{
-        
-        self.lineView.center = CGPointMake(sender.center.x, self.lineView.center.y);
-        
-    } completion:^(BOOL finished) {
-        
-    }];
-    
     if(self.btnClickBlock)
     self.btnClickBlock(sender.tag - 100);
 }
@@ -88,32 +95,19 @@
     CGFloat btn_W = self.frame.size.width/self.titles.count;
     
     CGFloat btn_H = self.frame.size.height;
-    
-    CGFloat lineView_H = 2;
-    
-    CGFloat lineView_W = 45;
-    
+
     for(int i = 0; i < self.titles.count; i++)
     {
         UIButton *subView = (UIButton *)[self viewWithTag:100+i];
         subView.frame = CGRectMake(i* btn_W, 0, btn_W, btn_H);
-        
-        self.defaultColor != nil?[subView setTitleColor:self.defaultColor forState:0]:nil;//设置默认颜色
-        self.selectColor != nil?[subView setTitleColor:self.selectColor forState:UIControlStateSelected]:nil;//设置选中颜色
-        self.titleFont != nil?[subView.titleLabel setFont:self.titleFont]:nil;//设置默认字体
         
         if(self.index == i)
         {
             subView.selected = YES;
             self.tempBtn = subView;
         }
-        
    
     }
-    
-    UIButton *selectBtn = (UIButton *)[self viewWithTag:100 + self.index];
-    _lineView.frame = CGRectMake(0, 0, lineView_W, lineView_H);
-    _lineView.center = CGPointMake(selectBtn.center.x, btn_H - lineView_H/2);
-    
+
 }
 @end

@@ -133,7 +133,6 @@
     CGFloat imageView_H = 40;
     
     CGFloat label_size = 14;
-    
     if(self.imageView_H)
     {
         imageView_H = self.imageView_H;//存在赋值

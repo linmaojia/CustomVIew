@@ -10,6 +10,7 @@
 #import "MJMoreBtnView.h"
 #import "MJSegmentedView.h"
 #import "MJMoreButtonView.h"
+#import "MJOtherView.h"
 @interface DEMO6_VC ()
 
 @property (nonatomic, strong) MJMoreBtnView *mjMoreBtnView;
@@ -17,14 +18,16 @@
 @property (nonatomic, strong) MJMoreButtonView *moreButton;
 @property (nonatomic, strong) MJMoreBtnView *buttonView;
 @property (nonatomic, strong) UIButton *editBtn;
+@property (nonatomic, strong) MJOtherView *otherView;
+@property (nonatomic, strong) MJSegmentedView *mtitleView;
 
 @end
 
 @implementation DEMO6_VC
 - (MJMoreBtnView *)buttonView{
     if(!_buttonView){
-        
-        NSArray *imageArray = @[@"icon_download",@"tab_service",@"tab_collect",@"icon_shopping_gray"];
+        ESWeakSelf;
+        NSArray *imageArray = @[@"icon_download",@"icon_service",@"tab_collect",@"icon_shopping_gray"];
         NSArray *titleArray = @[@"下载",@"客服",@"收藏",@"购物车"];
         
         _buttonView = [[MJMoreBtnView alloc]initWithTitles:titleArray Images:imageArray];
@@ -32,15 +35,32 @@
         _buttonView.imageView_H = 20;
         _buttonView.label_size = 11;
         _buttonView.label_H = 20;
-        
         _buttonView.titleBlock = ^(NSInteger index)
         {
             NSLog(@"----%@",titleArray[index]);
+            [__weakSelf clickBottomWithIndex:index];
         };
         
         
     }
     return _buttonView;
+}
+- (void)clickBottomWithIndex:(NSInteger)index
+{
+    if(index == 2)
+    {
+        UIView *subView = (UIView *)[_buttonView viewWithTag:100+2];
+        UIImageView *imageView = (UIImageView *)[subView viewWithTag:200+2];
+        imageView.image = [UIImage imageNamed:@"tab_collect_in"];
+        
+        UILabel *lable = (UILabel *)[_buttonView viewWithTag:300+2];
+        lable.text = @"已收藏";
+        
+        NSArray *countArray = @[@"0",@"0",@"0",@"3"];
+        
+        _buttonView.countArray = countArray;
+    }
+    
 }
 - (MJMoreBtnView *)mjMoreBtnView{
     if(!_mjMoreBtnView){
@@ -92,6 +112,32 @@
     }
     return _titleView;
 }
+- (MJSegmentedView *)mtitleView {
+    if (!_mtitleView) {
+        _mtitleView = [[MJSegmentedView alloc] initWithTitles:@[@"验证码登陆", @"注册", @"找回密码"]];
+        _mtitleView.isHideLineView = YES;
+        _mtitleView.defaultColor = [UIColor grayColor];
+        _mtitleView.selectColor = [UIColor grayColor];
+        _mtitleView.titleFont = [UIFont systemFontOfSize:12];
+
+        _mtitleView.btnClickBlock = ^(NSInteger index)
+        {
+            NSLog(@"--%ld",index);
+        };
+    }
+    return _mtitleView;
+}
+
+- (MJOtherView *)otherView {
+    if (!_otherView) {
+        _otherView = [[MJOtherView alloc] initWithTitles:@[@"已注册", @"邀请码"]];
+        _otherView.btnClickBlock = ^(NSInteger index)
+        {
+            NSLog(@"--%ld",index);
+        };
+    }
+    return _otherView;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -109,9 +155,7 @@
         
         //收藏
         
-        UIView *subView = (UIView *)[_buttonView viewWithTag:100+2];
-        UIImageView *imageView = (UIImageView *)[subView viewWithTag:200+2];
-        imageView.image = [UIImage imageNamed:@"tab_collect_in"];
+        
     });
 
     
@@ -137,8 +181,9 @@
     [self.view addSubview:self.titleView];
     [self.view addSubview:self.moreButton];
     [self.view addSubview:self.buttonView];
+    [self.view addSubview:self.otherView];
+    [self.view addSubview:self.mtitleView];
 
-    
 
 
 }
@@ -172,6 +217,19 @@
 
     }];
     
+    [_otherView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(_moreButton.bottom).offset(20);
+        make.left.right.equalTo(self.view);
+        make.height.equalTo(@80);
+        
+    }];
+    [_mtitleView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(_otherView.bottom).offset(20);
+        make.left.equalTo(self.view).offset(20);
+        make.right.equalTo(self.view).offset(-20);
+        make.height.equalTo(@80);
+        
+    }];
 
     
     
