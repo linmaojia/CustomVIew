@@ -11,11 +11,6 @@
 #import "DEMO6_VC.h"
 #import "MJMenuView.h"
 #import "DEMO7_VC.h"
-#import "SCSXProJectController.h"
-#import "SCSXShareSuccessVC.h"
-#import "SCSXSaveProJectVC.h"
-#import "SCCodeLoginPhoneVC.h"
-#import "SXBrowseController.h"
 #import "DEMO8_VC.h"
 
 
@@ -71,7 +66,7 @@
 }
 - (void)Action
 {
-   
+    
     [MJMenuView showWithImageArray:@[@"menu_icon_chat",@"menu_icon_phone",@"menu_icon_folder",@"menu_icon_scan"] titleArray:@[@"多人聊天",@"语音电话",@"传文件",@"退出登录"] itemAction:^(NSString *title) {
         NSLog(@"--%@",title);
     }];
@@ -79,7 +74,7 @@
 #pragma mark ************** 获取数据
 - (void)getData
 {
-
+    
 }
 #pragma mark ************** UITableView 代理方法
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -115,44 +110,15 @@
 {
     switch (indexPath.row) {
         case 0:
-        {
             [self.navigationController pushViewController:[DEMO8_VC new] animated:YES];
-
-        }
-        break;
+            break;
         case 1:
             [self.navigationController pushViewController:[DEMO6_VC new] animated:YES];
-         break;
+            break;
         case 2:
             [self.navigationController pushViewController:[DEMO7_VC new] animated:YES];
             break;
-        case 3:
-            [self.navigationController pushViewController:[SCSXProJectController new] animated:YES];
-            break;
-        case 4:
-            [self.navigationController pushViewController:[SCSXShareSuccessVC new] animated:YES];
-            break;
-        case 5:
-        {
-            SCSXSaveProJectVC *VC = [[SCSXSaveProJectVC alloc]init];
-            VC.image = [UIImage imageNamed:@"u10913"];
             
-            NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-            [dic setObject:@"20150804111933542-E91CADB0-566C-4E95-A0C5-D237F7C7E783,20150804175108446-F447A46D-0D97-4747-818F-6326D65F4F79" forKey:@"productId"];
-            [dic setObject:@"www" forKey:@"settingId"];
-            [dic setObject:@"xxx" forKey:@"dataDetail"];
-
-            VC.param = dic;
-            [self.navigationController pushViewController:VC animated:YES];
-
-        }
-            break;
-        case 6:
-            [self.navigationController pushViewController:[SCCodeLoginPhoneVC new] animated:YES];
-            break;
-        case 7:
-            [self.navigationController pushViewController:[SXBrowseController new] animated:YES];
-            break;
         default:
             break;
     }
@@ -163,7 +129,7 @@
 {
     
     [self.view addSubview:self.tableView];
-
+    
 }
 #pragma mark ************** 添加约束
 - (void)addConstraintsForView

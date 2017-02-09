@@ -33,7 +33,8 @@
     }];
 }
 - (IBAction)orherView:(id)sender {
-    [MJAlertView showOtherAlertViewWithTitle:@"删除历史" ConfirmText:@"确定" CancelText:@"前往首页" ConfirmBlock:^{
+    
+    [MJAlertView showOtherAlertViewWithTitle:@"删除历史哦" ConfirmText:@"确定" ConfirmColor:mainColor ConfirmBgColor:[UIColor whiteColor] CancelText:@"前往首页" CancelColor:[UIColor blackColor]  CancelBgColor:[UIColor whiteColor]  ConfirmBlock:^{
         
     } CancelBlock:^{
         
@@ -46,13 +47,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

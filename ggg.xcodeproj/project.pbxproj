@@ -30,33 +30,8 @@
 		8948B67A1DEEA93E00C75E10 /* MJListTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B6791DEEA93E00C75E10 /* MJListTopView.m */; };
 		8948B67D1DEEB7E600C75E10 /* YZGRankingListLabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B67C1DEEB7E600C75E10 /* YZGRankingListLabView.m */; };
 		8948B7691DF9432400C75E10 /* MJHouzzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7681DF9432400C75E10 /* MJHouzzView.m */; };
-		8948B7B51DFA623F00C75E10 /* SCSXProJectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7AF1DFA623F00C75E10 /* SCSXProJectController.m */; };
-		8948B7B61DFA623F00C75E10 /* SCSXPJManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7B21DFA623F00C75E10 /* SCSXPJManager.m */; };
-		8948B7B91DFA639F00C75E10 /* SCSXPJTableVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7B81DFA639F00C75E10 /* SCSXPJTableVIewCell.m */; };
-		8948B7BC1DFA907900C75E10 /* SCSXTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7BB1DFA907900C75E10 /* SCSXTopView.m */; };
-		8948B7BF1DFAA50D00C75E10 /* SCSXPJCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7BE1DFAA50D00C75E10 /* SCSXPJCollectionCell.m */; };
-		8948B7C21DFAAFAA00C75E10 /* SCSXPJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7C11DFAAFAA00C75E10 /* SCSXPJModel.m */; };
 		8948B7C51DFABE8B00C75E10 /* UIButton+JWCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7C41DFABE8B00C75E10 /* UIButton+JWCenter.m */; };
-		8948B7C81DFB96D600C75E10 /* SCSXTopCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7C71DFB96D600C75E10 /* SCSXTopCollectionCell.m */; };
-		8948B7CE1DFBA1DA00C75E10 /* SCSXShareSuccessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7CC1DFBA1DA00C75E10 /* SCSXShareSuccessVC.m */; };
-		8948B7D01DFBA22F00C75E10 /* SCSXShareSuccessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8948B7CF1DFBA22E00C75E10 /* SCSXShareSuccessVC.xib */; };
-		8948B7D31DFBD28B00C75E10 /* SCSXSaveProJectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7D21DFBD28B00C75E10 /* SCSXSaveProJectVC.m */; };
-		8948B7D61DFBD93300C75E10 /* MJTextViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7D51DFBD93300C75E10 /* MJTextViews.m */; };
-		8948B7D91DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7D81DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.m */; };
-		8948B7DD1DFC09B400C75E10 /* SCSXSaveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7DC1DFC09B400C75E10 /* SCSXSaveModel.m */; };
-		8948B7FC1DFD4B5900C75E10 /* SCCodeLoginPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7FA1DFD4B5900C75E10 /* SCCodeLoginPhoneVC.m */; };
-		8948B8001DFD511100C75E10 /* SVHTTPClient+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B7FF1DFD511100C75E10 /* SVHTTPClient+Login.m */; };
-		8948B8031DFD541600C75E10 /* SCAuthCodePhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8021DFD541600C75E10 /* SCAuthCodePhoneVC.m */; };
 		8948B8071DFD55BA00C75E10 /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8061DFD55BA00C75E10 /* JKCountDownButton.m */; };
-		8948B8161DFE9D8100C75E10 /* SCOrderProductDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8151DFE9D8100C75E10 /* SCOrderProductDetailModel.m */; };
-		8948B8701E026B0000C75E10 /* SXBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8681E026B0000C75E10 /* SXBrowseController.m */; };
-		8948B8721E026B0000C75E10 /* SXBrowseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B86E1E026B0000C75E10 /* SXBrowseManager.m */; };
-		8948B8751E02741A00C75E10 /* SCRecordModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8741E02741A00C75E10 /* SCRecordModle.m */; };
-		8948B87A1E02746E00C75E10 /* SCFavoriteDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8771E02746E00C75E10 /* SCFavoriteDetailModel.m */; };
-		8948B87B1E02746E00C75E10 /* SCFavoriteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8791E02746E00C75E10 /* SCFavoriteModel.m */; };
-		8948B87E1E0274F700C75E10 /* SXBrowseTableVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B87D1E0274F700C75E10 /* SXBrowseTableVIewCell.m */; };
-		8948B8811E02750600C75E10 /* SXBrowseSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8801E02750600C75E10 /* SXBrowseSectionHeadView.m */; };
-		8948B8871E02A5E800C75E10 /* SXBrowBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948B8861E02A5E800C75E10 /* SXBrowBottomView.m */; };
 		89490A191D93BABA004569A6 /* CZCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89490A181D93BABA004569A6 /* CZCountDownView.m */; };
 		89490A481D965A58004569A6 /* YZGErrorViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 89490A471D965A58004569A6 /* YZGErrorViews.m */; };
 		8949A1B31D8D3ED80064B16D /* YZGremarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8949A1B21D8D3ED80064B16D /* YZGremarkView.m */; };
@@ -290,59 +265,10 @@
 		8948B67C1DEEB7E600C75E10 /* YZGRankingListLabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGRankingListLabView.m; sourceTree = "<group>"; };
 		8948B7671DF9432400C75E10 /* MJHouzzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJHouzzView.h; sourceTree = "<group>"; };
 		8948B7681DF9432400C75E10 /* MJHouzzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJHouzzView.m; sourceTree = "<group>"; };
-		8948B7AE1DFA623F00C75E10 /* SCSXProJectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXProJectController.h; sourceTree = "<group>"; };
-		8948B7AF1DFA623F00C75E10 /* SCSXProJectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXProJectController.m; sourceTree = "<group>"; };
-		8948B7B11DFA623F00C75E10 /* SCSXPJManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXPJManager.h; sourceTree = "<group>"; };
-		8948B7B21DFA623F00C75E10 /* SCSXPJManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXPJManager.m; sourceTree = "<group>"; };
-		8948B7B71DFA639F00C75E10 /* SCSXPJTableVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXPJTableVIewCell.h; sourceTree = "<group>"; };
-		8948B7B81DFA639F00C75E10 /* SCSXPJTableVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXPJTableVIewCell.m; sourceTree = "<group>"; };
-		8948B7BA1DFA907900C75E10 /* SCSXTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXTopView.h; sourceTree = "<group>"; };
-		8948B7BB1DFA907900C75E10 /* SCSXTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXTopView.m; sourceTree = "<group>"; };
-		8948B7BD1DFAA50D00C75E10 /* SCSXPJCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXPJCollectionCell.h; sourceTree = "<group>"; };
-		8948B7BE1DFAA50D00C75E10 /* SCSXPJCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXPJCollectionCell.m; sourceTree = "<group>"; };
-		8948B7C01DFAAFAA00C75E10 /* SCSXPJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXPJModel.h; sourceTree = "<group>"; };
-		8948B7C11DFAAFAA00C75E10 /* SCSXPJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXPJModel.m; sourceTree = "<group>"; };
 		8948B7C31DFABE8B00C75E10 /* UIButton+JWCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWCenter.h"; sourceTree = "<group>"; };
 		8948B7C41DFABE8B00C75E10 /* UIButton+JWCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWCenter.m"; sourceTree = "<group>"; };
-		8948B7C61DFB96D600C75E10 /* SCSXTopCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXTopCollectionCell.h; sourceTree = "<group>"; };
-		8948B7C71DFB96D600C75E10 /* SCSXTopCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXTopCollectionCell.m; sourceTree = "<group>"; };
-		8948B7CB1DFBA1DA00C75E10 /* SCSXShareSuccessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXShareSuccessVC.h; sourceTree = "<group>"; };
-		8948B7CC1DFBA1DA00C75E10 /* SCSXShareSuccessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXShareSuccessVC.m; sourceTree = "<group>"; };
-		8948B7CF1DFBA22E00C75E10 /* SCSXShareSuccessVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCSXShareSuccessVC.xib; sourceTree = "<group>"; };
-		8948B7D11DFBD28B00C75E10 /* SCSXSaveProJectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXSaveProJectVC.h; sourceTree = "<group>"; };
-		8948B7D21DFBD28B00C75E10 /* SCSXSaveProJectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXSaveProJectVC.m; sourceTree = "<group>"; };
-		8948B7D41DFBD93300C75E10 /* MJTextViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTextViews.h; sourceTree = "<group>"; };
-		8948B7D51DFBD93300C75E10 /* MJTextViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTextViews.m; sourceTree = "<group>"; };
-		8948B7D71DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVHTTPClient+SXSXRequest.h"; sourceTree = "<group>"; };
-		8948B7D81DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVHTTPClient+SXSXRequest.m"; sourceTree = "<group>"; };
-		8948B7DB1DFC09B400C75E10 /* SCSXSaveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSXSaveModel.h; sourceTree = "<group>"; };
-		8948B7DC1DFC09B400C75E10 /* SCSXSaveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSXSaveModel.m; sourceTree = "<group>"; };
-		8948B7F91DFD4B5900C75E10 /* SCCodeLoginPhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCodeLoginPhoneVC.h; sourceTree = "<group>"; };
-		8948B7FA1DFD4B5900C75E10 /* SCCodeLoginPhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCodeLoginPhoneVC.m; sourceTree = "<group>"; };
-		8948B7FE1DFD511100C75E10 /* SVHTTPClient+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVHTTPClient+Login.h"; sourceTree = "<group>"; };
-		8948B7FF1DFD511100C75E10 /* SVHTTPClient+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVHTTPClient+Login.m"; sourceTree = "<group>"; };
-		8948B8011DFD541600C75E10 /* SCAuthCodePhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAuthCodePhoneVC.h; sourceTree = "<group>"; };
-		8948B8021DFD541600C75E10 /* SCAuthCodePhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAuthCodePhoneVC.m; sourceTree = "<group>"; };
 		8948B8051DFD55BA00C75E10 /* JKCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCountDownButton.h; sourceTree = "<group>"; };
 		8948B8061DFD55BA00C75E10 /* JKCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCountDownButton.m; sourceTree = "<group>"; };
-		8948B8141DFE9D8100C75E10 /* SCOrderProductDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOrderProductDetailModel.h; sourceTree = "<group>"; };
-		8948B8151DFE9D8100C75E10 /* SCOrderProductDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOrderProductDetailModel.m; sourceTree = "<group>"; };
-		8948B8671E026B0000C75E10 /* SXBrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXBrowseController.h; sourceTree = "<group>"; };
-		8948B8681E026B0000C75E10 /* SXBrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXBrowseController.m; sourceTree = "<group>"; };
-		8948B86D1E026B0000C75E10 /* SXBrowseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXBrowseManager.h; sourceTree = "<group>"; };
-		8948B86E1E026B0000C75E10 /* SXBrowseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXBrowseManager.m; sourceTree = "<group>"; };
-		8948B8731E02741A00C75E10 /* SCRecordModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRecordModle.h; sourceTree = "<group>"; };
-		8948B8741E02741A00C75E10 /* SCRecordModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRecordModle.m; sourceTree = "<group>"; };
-		8948B8761E02746E00C75E10 /* SCFavoriteDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFavoriteDetailModel.h; sourceTree = "<group>"; };
-		8948B8771E02746E00C75E10 /* SCFavoriteDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFavoriteDetailModel.m; sourceTree = "<group>"; };
-		8948B8781E02746E00C75E10 /* SCFavoriteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFavoriteModel.h; sourceTree = "<group>"; };
-		8948B8791E02746E00C75E10 /* SCFavoriteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFavoriteModel.m; sourceTree = "<group>"; };
-		8948B87C1E0274F700C75E10 /* SXBrowseTableVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXBrowseTableVIewCell.h; sourceTree = "<group>"; };
-		8948B87D1E0274F700C75E10 /* SXBrowseTableVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXBrowseTableVIewCell.m; sourceTree = "<group>"; };
-		8948B87F1E02750600C75E10 /* SXBrowseSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXBrowseSectionHeadView.h; sourceTree = "<group>"; };
-		8948B8801E02750600C75E10 /* SXBrowseSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXBrowseSectionHeadView.m; sourceTree = "<group>"; };
-		8948B8851E02A5E800C75E10 /* SXBrowBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXBrowBottomView.h; sourceTree = "<group>"; };
-		8948B8861E02A5E800C75E10 /* SXBrowBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXBrowBottomView.m; sourceTree = "<group>"; };
 		89490A171D93BABA004569A6 /* CZCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCountDownView.h; sourceTree = "<group>"; };
 		89490A181D93BABA004569A6 /* CZCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCountDownView.m; sourceTree = "<group>"; };
 		89490A461D965A58004569A6 /* YZGErrorViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZGErrorViews.h; path = ../../Controllers/views/YZGErrorViews.h; sourceTree = "<group>"; };
@@ -860,140 +786,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		8948B7AC1DFA623F00C75E10 /* 随心配方案 */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7AD1DFA623F00C75E10 /* controller */,
-				8948B7B01DFA623F00C75E10 /* manager */,
-				8948B7B31DFA623F00C75E10 /* models */,
-				8948B7B41DFA623F00C75E10 /* views */,
-			);
-			path = "随心配方案";
-			sourceTree = "<group>";
-		};
-		8948B7AD1DFA623F00C75E10 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7AE1DFA623F00C75E10 /* SCSXProJectController.h */,
-				8948B7AF1DFA623F00C75E10 /* SCSXProJectController.m */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		8948B7B01DFA623F00C75E10 /* manager */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7D71DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.h */,
-				8948B7D81DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.m */,
-				8948B7B11DFA623F00C75E10 /* SCSXPJManager.h */,
-				8948B7B21DFA623F00C75E10 /* SCSXPJManager.m */,
-			);
-			path = manager;
-			sourceTree = "<group>";
-		};
-		8948B7B31DFA623F00C75E10 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7C01DFAAFAA00C75E10 /* SCSXPJModel.h */,
-				8948B7C11DFAAFAA00C75E10 /* SCSXPJModel.m */,
-				8948B8141DFE9D8100C75E10 /* SCOrderProductDetailModel.h */,
-				8948B8151DFE9D8100C75E10 /* SCOrderProductDetailModel.m */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		8948B7B41DFA623F00C75E10 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7BA1DFA907900C75E10 /* SCSXTopView.h */,
-				8948B7BB1DFA907900C75E10 /* SCSXTopView.m */,
-				8948B7B71DFA639F00C75E10 /* SCSXPJTableVIewCell.h */,
-				8948B7B81DFA639F00C75E10 /* SCSXPJTableVIewCell.m */,
-				8948B7BD1DFAA50D00C75E10 /* SCSXPJCollectionCell.h */,
-				8948B7BE1DFAA50D00C75E10 /* SCSXPJCollectionCell.m */,
-				8948B7C61DFB96D600C75E10 /* SCSXTopCollectionCell.h */,
-				8948B7C71DFB96D600C75E10 /* SCSXTopCollectionCell.m */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		8948B7C91DFBA1DA00C75E10 /* 随心配分享成功 */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7DA1DFC09B400C75E10 /* models */,
-				8948B7CA1DFBA1DA00C75E10 /* controllers */,
-				8948B7CD1DFBA1DA00C75E10 /* views */,
-			);
-			path = "随心配分享成功";
-			sourceTree = "<group>";
-		};
-		8948B7CA1DFBA1DA00C75E10 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7CB1DFBA1DA00C75E10 /* SCSXShareSuccessVC.h */,
-				8948B7CC1DFBA1DA00C75E10 /* SCSXShareSuccessVC.m */,
-				8948B7CF1DFBA22E00C75E10 /* SCSXShareSuccessVC.xib */,
-				8948B7D11DFBD28B00C75E10 /* SCSXSaveProJectVC.h */,
-				8948B7D21DFBD28B00C75E10 /* SCSXSaveProJectVC.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		8948B7CD1DFBA1DA00C75E10 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7D41DFBD93300C75E10 /* MJTextViews.h */,
-				8948B7D51DFBD93300C75E10 /* MJTextViews.m */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		8948B7DA1DFC09B400C75E10 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7DB1DFC09B400C75E10 /* SCSXSaveModel.h */,
-				8948B7DC1DFC09B400C75E10 /* SCSXSaveModel.m */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		8948B7F71DFD4B5900C75E10 /* 登陆界面 */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7FD1DFD511100C75E10 /* manager */,
-				8948B7F81DFD4B5900C75E10 /* controllers */,
-				8948B7FB1DFD4B5900C75E10 /* views */,
-			);
-			path = "登陆界面";
-			sourceTree = "<group>";
-		};
-		8948B7F81DFD4B5900C75E10 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7F91DFD4B5900C75E10 /* SCCodeLoginPhoneVC.h */,
-				8948B7FA1DFD4B5900C75E10 /* SCCodeLoginPhoneVC.m */,
-				8948B8011DFD541600C75E10 /* SCAuthCodePhoneVC.h */,
-				8948B8021DFD541600C75E10 /* SCAuthCodePhoneVC.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		8948B7FB1DFD4B5900C75E10 /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		8948B7FD1DFD511100C75E10 /* manager */ = {
-			isa = PBXGroup;
-			children = (
-				8948B7FE1DFD511100C75E10 /* SVHTTPClient+Login.h */,
-				8948B7FF1DFD511100C75E10 /* SVHTTPClient+Login.m */,
-			);
-			path = manager;
-			sourceTree = "<group>";
-		};
 		8948B8041DFD55BA00C75E10 /* JKCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1001,61 +793,6 @@
 				8948B8061DFD55BA00C75E10 /* JKCountDownButton.m */,
 			);
 			path = JKCountDownButton;
-			sourceTree = "<group>";
-		};
-		8948B8651E026B0000C75E10 /* 浏览记录 */ = {
-			isa = PBXGroup;
-			children = (
-				8948B8661E026B0000C75E10 /* controllers */,
-				8948B8691E026B0000C75E10 /* models */,
-				8948B86C1E026B0000C75E10 /* tool */,
-				8948B86F1E026B0000C75E10 /* views */,
-			);
-			path = "浏览记录";
-			sourceTree = "<group>";
-		};
-		8948B8661E026B0000C75E10 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8948B8671E026B0000C75E10 /* SXBrowseController.h */,
-				8948B8681E026B0000C75E10 /* SXBrowseController.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		8948B8691E026B0000C75E10 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				8948B8731E02741A00C75E10 /* SCRecordModle.h */,
-				8948B8741E02741A00C75E10 /* SCRecordModle.m */,
-				8948B8761E02746E00C75E10 /* SCFavoriteDetailModel.h */,
-				8948B8771E02746E00C75E10 /* SCFavoriteDetailModel.m */,
-				8948B8781E02746E00C75E10 /* SCFavoriteModel.h */,
-				8948B8791E02746E00C75E10 /* SCFavoriteModel.m */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		8948B86C1E026B0000C75E10 /* tool */ = {
-			isa = PBXGroup;
-			children = (
-				8948B86D1E026B0000C75E10 /* SXBrowseManager.h */,
-				8948B86E1E026B0000C75E10 /* SXBrowseManager.m */,
-			);
-			path = tool;
-			sourceTree = "<group>";
-		};
-		8948B86F1E026B0000C75E10 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				8948B8851E02A5E800C75E10 /* SXBrowBottomView.h */,
-				8948B8861E02A5E800C75E10 /* SXBrowBottomView.m */,
-				8948B87F1E02750600C75E10 /* SXBrowseSectionHeadView.h */,
-				8948B8801E02750600C75E10 /* SXBrowseSectionHeadView.m */,
-				8948B87C1E0274F700C75E10 /* SXBrowseTableVIewCell.h */,
-				8948B87D1E0274F700C75E10 /* SXBrowseTableVIewCell.m */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		89490A161D93BABA004569A6 /* 倒计时 */ = {
@@ -2049,10 +1786,6 @@
 			children = (
 				8997C5DB1D51E1C40000DB9A /* AppDelegate.h */,
 				8997C5DC1D51E1C40000DB9A /* AppDelegate.m */,
-				8948B8651E026B0000C75E10 /* 浏览记录 */,
-				8948B7F71DFD4B5900C75E10 /* 登陆界面 */,
-				8948B7C91DFBA1DA00C75E10 /* 随心配分享成功 */,
-				8948B7AC1DFA623F00C75E10 /* 随心配方案 */,
 				8948B66B1DEE7EC400C75E10 /* Controller */,
 				8948B6641DEE7D4700C75E10 /* customViews */,
 				898AB6C21D87BDDB001B07A9 /* Base(重用视图) */,
@@ -2216,7 +1949,6 @@
 				8979C2601D7EE43B008A2D72 /* SVProgressHUD.bundle in Resources */,
 				8967BB8C1DA744190081BDA1 /* CoreSVP.bundle in Resources */,
 				898AB72E1D87E41D001B07A9 /* IQKeyboardManager.bundle in Resources */,
-				8948B7D01DFBA22F00C75E10 /* SCSXShareSuccessVC.xib in Resources */,
 				8967BB711DA744190081BDA1 /* PhotoItemView.xib in Resources */,
 				894D8F8E1DB77B4A00AE66ED /* tableView.plist in Resources */,
 				8967BB731DA744190081BDA1 /* PhotoBroswerVC.xib in Resources */,
@@ -2303,12 +2035,10 @@
 				3D50CEEF1D8C2EC100CFF87C /* RegExpValidate.m in Sources */,
 				8979C2311D7EE273008A2D72 /* MJRefreshBackFooter.m in Sources */,
 				898AB7311D87E5FC001B07A9 /* YZGRemarksView.m in Sources */,
-				8948B87B1E02746E00C75E10 /* SCFavoriteModel.m in Sources */,
 				8967BB7A1DA744190081BDA1 /* NSObject+Extend.m in Sources */,
 				8967BB881DA744190081BDA1 /* UIImage+ReMake.m in Sources */,
 				8948B6631DEE7B1C00C75E10 /* ViewController.m in Sources */,
 				895849921DCB05EE004585E7 /* FMDatabaseQueue.m in Sources */,
-				8948B8751E02741A00C75E10 /* SCRecordModle.m in Sources */,
 				8967BC8D1DB5CAE60081BDA1 /* UIView+HYBUIViewCommon.m in Sources */,
 				8979C23A1D7EE273008A2D72 /* MJRefreshBackStateFooter.m in Sources */,
 				893447CA1E1B47A200661D45 /* MJMoreButtonView.m in Sources */,
@@ -2321,7 +2051,6 @@
 				8967BB701DA744190081BDA1 /* PhotoItemView.m in Sources */,
 				8979A69F1D6D4AE700A4A4E2 /* MJFoundation.m in Sources */,
 				8948B7691DF9432400C75E10 /* MJHouzzView.m in Sources */,
-				8948B7CE1DFBA1DA00C75E10 /* SCSXShareSuccessVC.m in Sources */,
 				8979C1FA1D7EDF66008A2D72 /* NSString+TGHXAddtions.m in Sources */,
 				8979A6A51D6D4AE700A4A4E2 /* NSObject+MJKeyValue.m in Sources */,
 				8967BB681DA744190081BDA1 /* PhotoModel.m in Sources */,
@@ -2330,13 +2059,9 @@
 				898AB72B1D87E41D001B07A9 /* IQTitleBarButtonItem.m in Sources */,
 				8979C2361D7EE273008A2D72 /* MJRefreshAutoNormalFooter.m in Sources */,
 				8979C2401D7EE273008A2D72 /* NSBundle+MJRefresh.m in Sources */,
-				8948B8721E026B0000C75E10 /* SXBrowseManager.m in Sources */,
 				8979C2301D7EE273008A2D72 /* MJRefreshAutoFooter.m in Sources */,
 				89EFCD8C1D9CA7460099325D /* YZGRootNavigationController.m in Sources */,
-				8948B7C81DFB96D600C75E10 /* SCSXTopCollectionCell.m in Sources */,
-				8948B87E1E0274F700C75E10 /* SXBrowseTableVIewCell.m in Sources */,
 				8967BB671DA744190081BDA1 /* PhotoBroswerLayout.m in Sources */,
-				8948B7FC1DFD4B5900C75E10 /* SCCodeLoginPhoneVC.m in Sources */,
 				8967BB661DA744190081BDA1 /* PBConst.m in Sources */,
 				8967BB8A1DA744190081BDA1 /* UIButton+SD.m in Sources */,
 				8979C2811D7EEBE2008A2D72 /* Reachability.m in Sources */,
@@ -2345,17 +2070,13 @@
 				89EFCD931D9CB3BD0099325D /* YZGOrderButtonView.m in Sources */,
 				8967BB6B1DA744190081BDA1 /* PBBlurImageView.m in Sources */,
 				8979C2391D7EE273008A2D72 /* MJRefreshBackNormalFooter.m in Sources */,
-				8948B7C21DFAAFAA00C75E10 /* SCSXPJModel.m in Sources */,
-				8948B7BC1DFA907900C75E10 /* SCSXTopView.m in Sources */,
 				8979A6DF1D6D6E5B00A4A4E2 /* SDWebImageManager.m in Sources */,
 				8967BB7C1DA744190081BDA1 /* NSString+Password.m in Sources */,
-				8948B7B51DFA623F00C75E10 /* SCSXProJectController.m in Sources */,
 				898AB6FA1D87BF57001B07A9 /* YZGAlertView.m in Sources */,
 				8979C23C1D7EE273008A2D72 /* MJRefreshNormalHeader.m in Sources */,
 				8967BB791DA744190081BDA1 /* NSDate+Extend.m in Sources */,
 				8979C2371D7EE273008A2D72 /* MJRefreshAutoStateFooter.m in Sources */,
 				89EFCD861D9CA21C0099325D /* YZGShoppingCarView.m in Sources */,
-				8948B7B61DFA623F00C75E10 /* SCSXPJManager.m in Sources */,
 				8967BC8B1DB5CAE60081BDA1 /* HYBLoopScrollView.m in Sources */,
 				894D8FB71DB8A77500AE66ED /* SDBrowserImageView.m in Sources */,
 				8979C2611D7EE43B008A2D72 /* SVProgressHUD.m in Sources */,
@@ -2365,7 +2086,6 @@
 				8948B67D1DEEB7E600C75E10 /* YZGRankingListLabView.m in Sources */,
 				8958498F1DCB05EE004585E7 /* FMDatabase.m in Sources */,
 				3D7A0F981D940EBC00C6E04B /* JVFloatLabeledTextField.m in Sources */,
-				8948B7D31DFBD28B00C75E10 /* SCSXSaveProJectVC.m in Sources */,
 				8979A6DC1D6D6E5B00A4A4E2 /* SDWebImageDecoder.m in Sources */,
 				8967BB8D1DA744190081BDA1 /* CoreSVP.m in Sources */,
 				8979C26D1D7EE81E008A2D72 /* UIView+Empty.m in Sources */,
@@ -2374,8 +2094,6 @@
 				8979C1FB1D7EDF66008A2D72 /* UIColor+Extend.m in Sources */,
 				8979C2351D7EE273008A2D72 /* MJRefreshAutoGifFooter.m in Sources */,
 				894D8FE41DB9BA1B00AE66ED /* NSBundle+TZImagePicker.m in Sources */,
-				8948B7BF1DFAA50D00C75E10 /* SCSXPJCollectionCell.m in Sources */,
-				8948B8871E02A5E800C75E10 /* SXBrowBottomView.m in Sources */,
 				8979A6A01D6D4AE700A4A4E2 /* MJProperty.m in Sources */,
 				8979C25E1D7EE43B008A2D72 /* SVIndefiniteAnimatedView.m in Sources */,
 				8979C2001D7EDF66008A2D72 /* UIView+HYBImageCliped.m in Sources */,
@@ -2386,10 +2104,8 @@
 				8967BB6E1DA744190081BDA1 /* PBScrollView.m in Sources */,
 				8948B7C51DFABE8B00C75E10 /* UIButton+JWCenter.m in Sources */,
 				898AB7261D87E41D001B07A9 /* IQKeyboardManager.m in Sources */,
-				8948B8161DFE9D8100C75E10 /* SCOrderProductDetailModel.m in Sources */,
 				898AB7231D87E41D001B07A9 /* IQUIView+Hierarchy.m in Sources */,
 				3D7A0F831D940E1300C6E04B /* JKCustomTextField.m in Sources */,
-				8948B7D91DFC02D300C75E10 /* SVHTTPClient+SXSXRequest.m in Sources */,
 				89EFCD891D9CA3440099325D /* YZGDataManage.m in Sources */,
 				8979A6E01D6D6E5B00A4A4E2 /* SDWebImagePrefetcher.m in Sources */,
 				8979C23F1D7EE273008A2D72 /* MJRefreshConst.m in Sources */,
@@ -2404,7 +2120,6 @@
 				8979A6E61D6D6E5B00A4A4E2 /* UIImageView+WebCache.m in Sources */,
 				89AA15C61E4C07BE008777CE /* MJOtherView.m in Sources */,
 				89AA15C91E4C0BF7008777CE /* SCMJButtons.m in Sources */,
-				8948B8001DFD511100C75E10 /* SVHTTPClient+Login.m in Sources */,
 				8948B6711DEE80C500C75E10 /* MJMenuView.m in Sources */,
 				898AB7221D87E41D001B07A9 /* IQUITextFieldView+Additions.m in Sources */,
 				8979A6A11D6D4AE700A4A4E2 /* MJPropertyKey.m in Sources */,
@@ -2424,7 +2139,6 @@
 				3D6C2C921D917CAE00BAA0AE /* KViewController.m in Sources */,
 				8979C2801D7EEBE2008A2D72 /* CoreStatus.m in Sources */,
 				894D8FB91DB8A77500AE66ED /* SDWaitingView.m in Sources */,
-				8948B7DD1DFC09B400C75E10 /* SCSXSaveModel.m in Sources */,
 				3D350C4A1D92CEB900A949B2 /* HMSegmentedControl.m in Sources */,
 				8979C2321D7EE273008A2D72 /* MJRefreshComponent.m in Sources */,
 				8967BB7B1DA744190081BDA1 /* NSString+Extend.m in Sources */,
@@ -2444,18 +2158,14 @@
 				89490A191D93BABA004569A6 /* CZCountDownView.m in Sources */,
 				898AB7281D87E41D001B07A9 /* IQTextView.m in Sources */,
 				8979A6A71D6D4AE700A4A4E2 /* NSString+MJExtension.m in Sources */,
-				8948B7D61DFBD93300C75E10 /* MJTextViews.m in Sources */,
 				8967BB751DA744190081BDA1 /* CoreArchive.m in Sources */,
 				8979C2331D7EE273008A2D72 /* MJRefreshFooter.m in Sources */,
 				8967BB8E1DA744190081BDA1 /* LFRoundProgressView.m in Sources */,
 				8967BB831DA744190081BDA1 /* UIImage+FixOrientation.m in Sources */,
-				8948B8701E026B0000C75E10 /* SXBrowseController.m in Sources */,
 				8997C5DD1D51E1C40000DB9A /* AppDelegate.m in Sources */,
 				894D8FE51DB9BA1B00AE66ED /* TZAssetCell.m in Sources */,
 				8967BB841DA744190081BDA1 /* UIImage+Water.m in Sources */,
-				8948B87A1E02746E00C75E10 /* SCFavoriteDetailModel.m in Sources */,
 				8948B8071DFD55BA00C75E10 /* JKCountDownButton.m in Sources */,
-				8948B7B91DFA639F00C75E10 /* SCSXPJTableVIewCell.m in Sources */,
 				8979C25F1D7EE43B008A2D72 /* SVProgressAnimatedView.m in Sources */,
 				8979A6DA1D6D6E5B00A4A4E2 /* SDImageCache.m in Sources */,
 				898AB72C1D87E41D001B07A9 /* IQToolbar.m in Sources */,
@@ -2468,7 +2178,6 @@
 				898AB7271D87E41D001B07A9 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				8967BB761DA744190081BDA1 /* CALayer+Anim.m in Sources */,
 				8979A6A61D6D4AE700A4A4E2 /* NSObject+MJProperty.m in Sources */,
-				8948B8031DFD541600C75E10 /* SCAuthCodePhoneVC.m in Sources */,
 				8979C2431D7EE273008A2D72 /* UIView+MJExtension.m in Sources */,
 				894D8FB81DB8A77500AE66ED /* SDPhotoBrowser.m in Sources */,
 				8979C1F91D7EDF66008A2D72 /* NSString+Size.m in Sources */,
@@ -2491,7 +2200,6 @@
 				8979C2741D7EE8F5008A2D72 /* SVHTTPRequest.m in Sources */,
 				8979A6D81D6D6E5B00A4A4E2 /* MKAnnotationView+WebCache.m in Sources */,
 				8979A6DE1D6D6E5B00A4A4E2 /* SDWebImageDownloaderOperation.m in Sources */,
-				8948B8811E02750600C75E10 /* SXBrowseSectionHeadView.m in Sources */,
 				8979C23D1D7EE273008A2D72 /* MJRefreshStateHeader.m in Sources */,
 				8948B66E1DEE7F4D00C75E10 /* DEMO6_VC.m in Sources */,
 				8979C1FC1D7EDF66008A2D72 /* UIImage+Color.m in Sources */,
